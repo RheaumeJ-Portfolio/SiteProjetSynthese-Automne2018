@@ -1,0 +1,12 @@
+nav {
+  margin: 16px auto;
+  max-width: 1024px; }
+  nav > * {
+    margin: 0 16px 0 0; }
+
+.navbar-collapse.collapse {
+  display: block !important; }
+
+main {
+  margin: 0 auto;
+  max-width: 1024px; }

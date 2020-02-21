@@ -1,0 +1,21 @@
+.time-list {
+  list-style-type: none;
+  padding: 0;
+  border: 1px solid lightgray;
+  border-radius: 4px; }
+  .time-list__item {
+    display: flex;
+    align-items: center;
+    padding: 16px; }
+    .time-list__item:not(:first-child) {
+      border-top: 1px solid lightgray; }
+    .time-list__item:hover {
+      background-color: lightgray; }
+    .time-list__item > *:not(:last-child) {
+      flex-grow: 1; }
+  .time-list__empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    font-style: italic; }
